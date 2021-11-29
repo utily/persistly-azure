@@ -3,7 +3,7 @@
 		"target": "es2019",
 		"module": "es2015",
 		"allowJs": true,
-		"allowSyntheticDefaultImports":true,
+		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"noImplicitAny": true,
 		"removeComments": true,
@@ -15,12 +15,12 @@
 		"outDir": "dist",
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
-		"paths": { 
-			"*": ["types/*"] 
+		"paths": {
+			"*": [
+				"types/*"
+			]
 		}
-
 	},
-	"files": ["index.ts"],
 	"typeAcquisition": {
 		"enable": true
 	}

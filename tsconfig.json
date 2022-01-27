@@ -1,15 +1,14 @@
 {
-	"extends": "./tsconfig.test.json",
 	"compilerOptions": {
-		"declaration": true,
-		"sourceMap": true,
-		"sourceRoot": "../",
-		"outDir": "dist",
 		"baseUrl": ".",
-		"paths": { "*": ["types/*"] },
-		"allowSyntheticDefaultImports":true
+		"paths": {
+			"*": [
+				"types/*"
+			]
+		}
 	},
-	"files": [
-		"index.ts",
-	]
+	"extends": "./tsconfig.test.json",
+	"rootDir": ".",
+	"sourceMap": true,
+	"strict": true
 }

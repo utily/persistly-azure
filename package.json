@@ -85,8 +85,8 @@
     "authly": "^0.1.8",
     "gracely": "^0.0.44",
     "isoly": "^0.0.36",
-    "persistly-model": "github:utily/persistly-model#cache-parity",
-    "persistly-node": "github:utily/persistly-node#model-bump",
+    "persistly-model": "0.0.13",
+    "persistly-node": "0.3.2",
     "servly": "^0.1.15",
     "servly-azure": "^0.1.12"
   }

@@ -1,9 +1,7 @@
 {
 	"compilerOptions": {
-		"target": "es2019",
-		"module": "es2015",
-		"allowJs": true,
-		"allowSyntheticDefaultImports":true,
+		"target": "es6",
+		"module": "commonjs",
 		"esModuleInterop": true,
 		"noImplicitAny": true,
 		"removeComments": true,
@@ -15,12 +13,13 @@
 		"outDir": "dist",
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
-		"paths": { 
-			"*": ["types/*"] 
+		"baseUrl": ".",
+		"paths": {
+			"*": [
+				"types/*"
+			]
 		}
-
 	},
-	"files": ["index.ts"],
 	"typeAcquisition": {
 		"enable": true
 	}
